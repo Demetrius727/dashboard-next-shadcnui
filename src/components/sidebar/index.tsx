@@ -135,7 +135,7 @@ export function Sidebar() {
                             </nav>
                         </SheetContent>
                     </Sheet>
-                   
+                   <h2>Menu</h2>
                 </header>
             </div>
         </div>

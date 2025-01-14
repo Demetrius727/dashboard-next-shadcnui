@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
 import { ChartConfig, ChartContainer, ChartTooltip, ChartTooltipContent, ChartLegend, ChartLegendContent } from "../ui/chart";
 import { Bar, CartesianGrid, XAxis, BarChart } from "recharts";
 
-export default function ChartOverview() {
+export function ChartOverview() {
     const chartData = [
         { month: "January", desktop: 186, mobile: 80 },
         { month: "February", desktop: 305, mobile: 200 },
@@ -31,7 +31,7 @@ export default function ChartOverview() {
         <Card className="w-full md:w-1/2 md:max-w-[600px]">
             <CardHeader>
                 <div className="flex items-center justify-center">
-                    <CardTitle className="text=lg sm:text-xl text-gray-800">Overview vendas</CardTitle>
+                    <CardTitle className="text=lg sm:text-xl text-gray-800">Overview Vendas</CardTitle>
                     <DollarSign className="ml-auto w-4 h-4"/>
                 </div>
             </CardHeader>
